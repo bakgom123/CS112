@@ -1,0 +1,37 @@
+Script started on 2021-11-15 19:52:32-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;gy24@gold25: ~/cs112/proj08[01;32mgy24@gold25[00m:[01;34m~/cs112/proj08[00m$ cd Debug
+]0;gy24@gold25: ~/cs112/proj08/Debug[01;32mgy24@gold25[00m:[01;34m~/cs112/proj08/Debug[00m$ ls
+ArrayQueueTester.d   LinkedQueueTester.o   PalindromeDetectorTester.d  tester.d
+ArrayQueueTester.o   makefile              PalindromeDetectorTester.o  tester.o
+LinkedQueue.d        objects.mk            [0m[01;32mproj08[0m
+LinkedQueue.o        PalindromeDetector.d  sources.mk
+LinkedQueueTester.d  PalindromeDetector.o  subdir.mk
+]0;gy24@gold25: ~/cs112/proj08/Debug[01;32mgy24@gold25[00m:[01;34m~/cs112/proj08/Debug[00m$ maek all      ka e all
+make: Nothing to be done for 'all'.
+]0;gy24@gold25: ~/cs112/proj08/Debug[01;32mgy24@gold25[00m:[01;34m~/cs112/proj08/Debug[00m$ cd ..
+]0;gy24@gold25: ~/cs112/proj08[01;32mgy24@gold25[00m:[01;34m~/cs112/proj08[00m$ ./Debug/proj08
+Testing class ArrayQueue...
+- testing constructor...  1  2  Passed!
+- testing append(), getFirst(), getLast() ...  0a  0b  1  2  3  4  5 Passed, but wrap-around not tested...
+- testing remove()...  0  1  2  3  4a  4b  4c  4d  5  6a  6b  6c Passed!
+- testing copy constructor...  1  2  3 Passed!
+- testing assignment...  1  2  3  4  5  6  7 Passed!
+Testing setCapacity()... 1a 1b 1c 2a 2b 2c 2d 2e 2f 3a 3b 3c 3d 3e 3f 4a 4b 4c 4d 4e 4f 5 6 Passed!
+All tests passed!
+
+Testing class LinkedQueue...
+- testing constructor...  Passed!
+- testing append(), getFirst(), getLast(), ...  0a  0b  1  2  3  4 Passed!
+- testing remove()...  0  1  2  3  4a  4b  4c  4d  5 Passed!
+- testing copy constructor...  1  2 Passed!
+- testing assignment...  1  2  3  4  5  6  7 Passed!
+All tests passed!
+
+testing class PalindromeDetector...
+- Testing constructor... 0 Passed!
+- Testing detectPalindromes()... 0  1  2  3 Passed!
+- Testing isPalindrome()... 0  1  2  3  4 Passed!
+All tests passed!
+]0;gy24@gold25: ~/cs112/proj08[01;32mgy24@gold25[00m:[01;34m~/cs112/proj08[00m$ exit
+
+Script done on 2021-11-15 19:53:16-05:00 [COMMAND_EXIT_CODE="0"]
