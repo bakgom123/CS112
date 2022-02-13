@@ -1,0 +1,71 @@
+Script started on 2021-10-25 15:52:57-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;gy24@maroon21: ~/cs112/proj06[01;32mgy24@maroon21[00m:[01;34m~/cs112/proj06[00m$ cd Debug
+]0;gy24@maroon21: ~/cs112/proj06/Debug[01;32mgy24@maroon21[00m:[01;34m~/cs112/proj06/Debug[00m$ ls
+CongaLine.d  ListTester.d  main.d  makefile    [0m[01;32mproj06[0m      subdir.mk
+CongaLine.o  ListTester.o  main.o  objects.mk  sources.mk
+]0;gy24@maroon21: ~/cs112/proj06/Debug[01;32mgy24@maroon21[00m:[01;34m~/cs112/proj06/Debug[00m$ maek  ke all
+make: Nothing to be done for 'all'.
+]0;gy24@maroon21: ~/cs112/proj06/Debug[01;32mgy24@maroon21[00m:[01;34m~/cs112/proj06/Debug[00m$ cd ..
+]0;gy24@maroon21: ~/cs112/proj06[01;32mgy24@maroon21[00m:[01;34m~/cs112/proj06[00m$ ./Debug/proj06
+Ann and Bob have started a Conga Line!
+
+=Ann=Bob
+
+
+Conga, Conga, Con-GA!  Conga, Conga, Con-GA!
+
+Please enter:
+ 1 to join the Conga line at the end
+ 2 to join the Conga line after a particular person
+ 3 to join the Conga line before a particular person
+ 4 to quit
+--> 1
+
+What is your name? Anne
+
+=Ann=Bob=Anne
+
+
+Conga, Conga, Con-GA!  Conga, Conga, Con-GA!
+
+Please enter:
+ 1 to join the Conga line at the end
+ 2 to join the Conga line after a particular person
+ 3 to join the Conga line before a particular person
+ 4 to quit
+--> 2
+
+What is your name? David
+Who do you want to follow? Ann
+
+=Ann=David=Bob=Anne
+
+
+Conga, Conga, Con-GA!  Conga, Conga, Con-GA!
+
+Please enter:
+ 1 to join the Conga line at the end
+ 2 to join the Conga line after a particular person
+ 3 to join the Conga line before a particular person
+ 4 to quit
+--> 3
+
+What is your name? Gunju
+Who do you want to precede? Bob
+
+=Ann=David=Gunju=Bob=Anne
+
+
+Conga, Conga, Con-GA!  Conga, Conga, Con-GA!
+
+Please enter:
+ 1 to join the Conga line at the end
+ 2 to join the Conga line after a particular person
+ 3 to join the Conga line before a particular person
+ 4 to quit
+--> 4
+
+The dance is done!
+]0;gy24@maroon21: ~/cs112/proj06[01;32mgy24@maroon21[00m:[01;34m~/cs112/proj06[00m$ exit
+
+Script done on 2021-10-25 15:53:53-04:00 [COMMAND_EXIT_CODE="0"]
