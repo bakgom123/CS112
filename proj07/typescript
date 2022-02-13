@@ -1,0 +1,62 @@
+Script started on 2021-10-29 00:44:12-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;gy24@remotel3: ~/cs112/proj07[01;32mgy24@remotel3[00m:[01;34m~/cs112/proj07[00m$ cd Debug
+]0;gy24@remotel3: ~/cs112/proj07/Debug[01;32mgy24@remotel3[00m:[01;34m~/cs112/proj07/Debug[00m$ ls
+makefile    [0m[01;32mproj07[0m         ReversePoem.o  StackTester.d  subdir.mk  tester.o
+objects.mk  ReversePoem.d  sources.mk     StackTester.o  tester.d
+]0;gy24@remotel3: ~/cs112/proj07/Debug[01;32mgy24@remotel3[00m:[01;34m~/cs112/proj07/Debug[00m$ make all
+make: Nothing to be done for 'all'.
+]0;gy24@remotel3: ~/cs112/proj07/Debug[01;32mgy24@remotel3[00m:[01;34m~/cs112/proj07/Debug[00m$ cd ..
+]0;gy24@remotel3: ~/cs112/proj07[01;32mgy24@remotel3[00m:[01;34m~/cs112/proj07[00m$ ./Debug/proj07
+Testing Stack class...
+- Testing constructor...  1  Passed!
+- Testing isEmpty()...  1  2  Passed!
+- Testing push()...  1  2  Passed! 
+- Testing pop()...  0a  0b  1a  1b  2  2a  2b  3  3a  3b  Passed!
+- Testing copy constructor...  1  2  3 Passed!
+- Testing assignment...  1  2  3  4  5  6  7  8 Passed!
+- Testing destructor... 1  2  3  4  Passed!
+- Testing ReversePoem()... 0 Passed!
+All tests passed!
+
+Enter the name of the poem file: love.txt
+Love?
+Anonymous
+
+*** Top-To-Bottom ***
+
+I don't love you anymore...
+I would be lying if I said
+That I still love you the way I always did.
+I'm sure
+Nothing was in vain.
+And I feel inside of me that
+You mean nothing to me
+I could never really say that
+Our time together matters.
+I feel more and more that
+I'm forgetting you...
+And I will never use the phrase
+I love you.
+I'm sorry but I must tell the truth...
+
+
+*** Bottom-To-Top ***
+
+I'm sorry but I must tell the truth...
+I love you.
+And I will never use the phrase
+I'm forgetting you...
+I feel more and more that
+Our time together matters.
+I could never really say that
+You mean nothing to me
+And I feel inside of me that
+Nothing was in vain.
+I'm sure
+That I still love you the way I always did.
+I would be lying if I said
+I don't love you anymore...
+
+]0;gy24@remotel3: ~/cs112/proj07[01;32mgy24@remotel3[00m:[01;34m~/cs112/proj07[00m$ exit
+
+Script done on 2021-10-29 00:45:26-04:00 [COMMAND_EXIT_CODE="0"]
