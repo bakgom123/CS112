@@ -1,0 +1,33 @@
+Script started on 2021-10-11 15:43:44-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;gy24@maroon25: ~/cs112/proj05[01;32mgy24@maroon25[00m:[01;34m~/cs112/proj05[00m$ cd Debug
+]0;gy24@maroon25: ~/cs112/proj05/Debug[01;32mgy24@maroon25[00m:[01;34m~/cs112/proj05/Debug[00m$ ls
+ListTester.d  makefile    [0m[01;32mproj05[0m      subdir.mk  tester.o
+ListTester.o  objects.mk  sources.mk  tester.d
+]0;gy24@maroon25: ~/cs112/proj05/Debug[01;32mgy24@maroon25[00m:[01;34m~/cs112/proj05/Debug[00m$ make all
+make: Nothing to be done for 'all'.
+]0;gy24@maroon25: ~/cs112/proj05/Debug[01;32mgy24@maroon25[00m:[01;34m~/cs112/proj05/Debug[00m$ make all
+make: Nothing to be done for 'all'.
+]0;gy24@maroon25: ~/cs112/proj05/Debug[01;32mgy24@maroon25[00m:[01;34m~/cs112/proj05/Debug[00m$ cd ..
+]0;gy24@maroon25: ~/cs112/proj05[01;32mgy24@maroon25[00m:[01;34m~/cs112/proj05[00m$ ./Debug/proj05
+Running List tests...
+Testing List default constructor... Passed!
+Testing Node default constructor... Passed!
+Testing Node explicit constructor...  1  2 Passed!
+Testing append()...  0a  0b  1  2  3 Passed!
+Testing destructor...  1  2 Passed!  But double-check for memory leaks!
+Testing copy constructor...  1  2 Passed!
+Testing assignment...  1  2  3  4  5  6  7 Passed!  But double-check for memory leaks!
+Testing equality...  0  1  2  3  4 Passed!
+Testing ReadFromStream...  0  1 Passed!
+Testing WriteToFile... Passed!
+Testing Prepend...  0  1  2 Passed!
+Testing Insert...  0  1  2 Passed!
+Testing inequality...  0  1  2  3  4 Passed!
+Testing writeTo(ostream)... Passed!
+Testing readFrom(string)... Passed!
+Testing getIndexOf(Item)...  0  1  2 Passed!
+Testing remove(index)...  0  1 Passed!
+All tests passed!
+]0;gy24@maroon25: ~/cs112/proj05[01;32mgy24@maroon25[00m:[01;34m~/cs112/proj05[00m$ exit
+
+Script done on 2021-10-11 15:45:06-04:00 [COMMAND_EXIT_CODE="0"]
