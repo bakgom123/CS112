@@ -1,3 +1,2 @@
 # CS112
-Calvin University CS-112
-2020 Fall
+Calvin University 2020 Fall CS112
