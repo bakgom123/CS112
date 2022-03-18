@@ -1,0 +1,186 @@
+Script started on 2021-11-22 19:48:23-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;gy24@gold33: ~/cs112/proj09[01;32mgy24@gold33[00m:[01;34m~/cs112/proj09[00m$ ls
+BST.h           proj09.xlsx       randomInts05.txt  randomInts10.txt
+BST_Tester.cpp  randomInts01.txt  randomInts06.txt  tester.cpp
+BST_Tester.h    randomInts02.txt  randomInts07.txt  typescript
+[0m[01;34mDebug[0m           randomInts03.txt  randomInts08.txt
+Exception.h     randomInts04.txt  randomInts09.txt
+]0;gy24@gold33: ~/cs112/proj09[01;32mgy24@gold33[00m:[01;34m~/cs112/proj09[00m$ cd Debi ug
+]0;gy24@gold33: ~/cs112/proj09/Debug[01;32mgy24@gold33[00m:[01;34m~/cs112/proj09/Debug[00m$ ls
+BST_Tester.d  makefile    [0m[01;32mproj09[0m      subdir.mk  tester.o
+BST_Tester.o  objects.mk  sources.mk  tester.d
+]0;gy24@gold33: ~/cs112/proj09/Debug[01;32mgy24@gold33[00m:[01;34m~/cs112/proj09/Debug[00m$ make all
+Building file: ../tester.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"tester.d" -MT"tester.o" -o "tester.o" "../tester.cpp"
+Finished building: ../tester.cpp
+ 
+Building target: proj09
+Invoking: GCC C++ Linker
+g++  -o "proj09"  ./BST_Tester.o ./tester.o   
+Finished building target: proj09
+ 
+]0;gy24@gold33: ~/cs112/proj09/Debug[01;32mgy24@gold33[00m:[01;34m~/cs112/proj09/Debug[00m$ cd ..
+]0;gy24@gold33: ~/cs112/proj09[01;32mgy24@gold33[00m:[01;34m~/cs112/proj09[00m$ ./Debug/proj09
+Testing class BST
+Testing constructor... Passed!
+Testing insert()...  0  1  2  3  4  5  6  7  8  9  10  11  12  13  Passed!
+Testing contains()...  1  2  3  4  Passed!
+Testing traverse()...
+- Preorder: expecting: 55 33 11 22 44 77 66 99 88
+- Got                : 55 33 11 22 44 77 66 99 88
+
+- Postorder: expecting: 22 11 44 33 66 88 99 77 55
+- Got                 : 22 11 33 55
+
+- Inorder: expecting: 11 22 33 44 55 66 77 88 99
+- Got               : 11 22 22 11 33 44 44 33 55 66 66 77 88 88 99 99 77 55
+ Passed!
+Testing getHeight()... 0  1a  1b  1c  1d  1e  1f  1g  1h  2a  2b  3a  3b  3c  3d  4a  4b  4c  4d  4e  4f  Passed!
+All tests passed!
+filename: randomInts01.txt, height: 47, duplicates: 0, items:1048575
+filename: randomInts02.txt, height: 49, duplicates: 0, items:1048575
+filename: randomInts03.txt, height: 47, duplicates: 0, items:1048575
+Enter the name of an input file: randomInts04.txt
+filename: randomInts04.txt, height: 51, duplicates: 0, items:1048575
+]0;gy24@gold33: ~/cs112/proj09[01;32mgy24@gold33[00m:[01;34m~/cs112/proj09[00m$ ./Debug/proj09
+Testing class BST
+Testing constructor... Passed!
+Testing insert()...  0  1  2  3  4  5  6  7  8  9  10  11  12  13  Passed!
+Testing contains()...  1  2  3  4  Passed!
+Testing traverse()...
+- Preorder: expecting: 55 33 11 22 44 77 66 99 88
+- Got                : 55 33 11 22 44 77 66 99 88
+
+- Postorder: expecting: 22 11 44 33 66 88 99 77 55
+- Got                 : 22 11 33 55
+
+- Inorder: expecting: 11 22 33 44 55 66 77 88 99
+- Got               : 11 22 22 11 33 44 44 33 55 66 66 77 88 88 99 99 77 55
+ Passed!
+Testing getHeight()... 0  1a  1b  1c  1d  1e  1f  1g  1h  2a  2b  3a  3b  3c  3d  4a  4b  4c  4d  4e  4f  Passed!
+All tests passed!
+filename: randomInts01.txt, height: 47, duplicates: 0, items:1048575
+filename: randomInts02.txt, height: 49, duplicates: 0, items:1048575
+filename: randomInts03.txt, height: 47, duplicates: 0, items:1048575
+Enter the name of an input file: randomInts04.txt
+filename: randomInts04.txt, height: 51, duplicates: 0, items:1048575
+]0;gy24@gold33: ~/cs112/proj09[01;32mgy24@gold33[00m:[01;34m~/cs112/proj09[00m$ ./Debug/proj09
+Testing class BST
+Testing constructor... Passed!
+Testing insert()...  0  1  2  3  4  5  6  7  8  9  10  11  12  13  Passed!
+Testing contains()...  1  2  3  4  Passed!
+Testing traverse()...
+- Preorder: expecting: 55 33 11 22 44 77 66 99 88
+- Got                : 55 33 11 22 44 77 66 99 88
+
+- Postorder: expecting: 22 11 44 33 66 88 99 77 55
+- Got                 : 22 11 33 55
+
+- Inorder: expecting: 11 22 33 44 55 66 77 88 99
+- Got               : 11 22 22 11 33 44 44 33 55 66 66 77 88 88 99 99 77 55
+ Passed!
+Testing getHeight()... 0  1a  1b  1c  1d  1e  1f  1g  1h  2a  2b  3a  3b  3c  3d  4a  4b  4c  4d  4e  4f  Passed!
+All tests passed!
+filename: randomInts01.txt, height: 47, duplicates: 0, items:1048575
+filename: randomInts02.txt, height: 49, duplicates: 0, items:1048575
+filename: randomInts03.txt, height: 47, duplicates: 0, items:1048575
+Enter the name of an input file: randomInts06.txt
+filename: randomInts06.txt, height: 46, duplicates: 0, items:1048575
+]0;gy24@gold33: ~/cs112/proj09[01;32mgy24@gold33[00m:[01;34m~/cs112/proj09[00m$ ./Debug/proj09
+Testing class BST
+Testing constructor... Passed!
+Testing insert()...  0  1  2  3  4  5  6  7  8  9  10  11  12  13  Passed!
+Testing contains()...  1  2  3  4  Passed!
+Testing traverse()...
+- Preorder: expecting: 55 33 11 22 44 77 66 99 88
+- Got                : 55 33 11 22 44 77 66 99 88
+
+- Postorder: expecting: 22 11 44 33 66 88 99 77 55
+- Got                 : 22 11 33 55
+
+- Inorder: expecting: 11 22 33 44 55 66 77 88 99
+- Got               : 11 22 22 11 33 44 44 33 55 66 66 77 88 88 99 99 77 55
+ Passed!
+Testing getHeight()... 0  1a  1b  1c  1d  1e  1f  1g  1h  2a  2b  3a  3b  3c  3d  4a  4b  4c  4d  4e  4f  Passed!
+All tests passed!
+filename: randomInts01.txt, height: 47, duplicates: 0, items:1048575
+filename: randomInts02.txt, height: 49, duplicates: 0, items:1048575
+filename: randomInts03.txt, height: 47, duplicates: 0, items:1048575
+Enter the name of an input file: randomInts07.txt
+filename: randomInts07.txt, height: 47, duplicates: 0, items:1048575
+]0;gy24@gold33: ~/cs112/proj09[01;32mgy24@gold33[00m:[01;34m~/cs112/proj09[00m$ ./Debui  ug/proj09
+Testing class BST
+Testing constructor... Passed!
+Testing insert()...  0  1  2  3  4  5  6  7  8  9  10  11  12  13  Passed!
+Testing contains()...  1  2  3  4  Passed!
+Testing traverse()...
+- Preorder: expecting: 55 33 11 22 44 77 66 99 88
+- Got                : 55 33 11 22 44 77 66 99 88
+
+- Postorder: expecting: 22 11 44 33 66 88 99 77 55
+- Got                 : 22 11 33 55
+
+- Inorder: expecting: 11 22 33 44 55 66 77 88 99
+- Got               : 11 22 22 11 33 44 44 33 55 66 66 77 88 88 99 99 77 55
+ Passed!
+Testing getHeight()... 0  1a  1b  1c  1d  1e  1f  1g  1h  2a  2b  3a  3b  3c  3d  4a  4b  4c  4d  4e  4f  Passed!
+All tests passed!
+filename: randomInts01.txt, height: 47, duplicates: 0, items:1048575
+filename: randomInts02.txt, height: 49, duplicates: 0, items:1048575
+filename: randomInts03.txt, height: 47, duplicates: 0, items:1048575
+Enter the name of an input file: randomInts08.txt
+filename: randomInts08.txt, height: 51, duplicates: 0, items:1048575
+]0;gy24@gold33: ~/cs112/proj09[01;32mgy24@gold33[00m:[01;34m~/cs112/proj09[00m$ ./DEbug/proj09           ebug/proj09
+Testing class BST
+Testing constructor... Passed!
+Testing insert()...  0  1  2  3  4  5  6  7  8  9  10  11  12  13  Passed!
+Testing contains()...  1  2  3  4  Passed!
+Testing traverse()...
+- Preorder: expecting: 55 33 11 22 44 77 66 99 88
+- Got                : 55 33 11 22 44 77 66 99 88
+
+- Postorder: expecting: 22 11 44 33 66 88 99 77 55
+- Got                 : 22 11 33 55
+
+- Inorder: expecting: 11 22 33 44 55 66 77 88 99
+- Got               : 11 22 22 11 33 44 44 33 55 66 66 77 88 88 99 99 77 55
+ Passed!
+Testing getHeight()... 0  1a  1b  1c  1d  1e  1f  1g  1h  2a  2b  3a  3b  3c  3d  4a  4b  4c  4d  4e  4f  Passed!
+All tests passed!
+filename: randomInts01.txt, height: 47, duplicates: 0, items:1048575
+filename: randomInts02.txt, height: 49, duplicates: 0, items:1048575
+filename: randomInts03.txt, height: 47, duplicates: 0, items:1048575
+Enter the name of an input file: randomInts09.txt
+filename: randomInts09.txt, height: 49, duplicates: 0, items:1048575
+]0;gy24@gold33: ~/cs112/proj09[01;32mgy24@gold33[00m:[01;34m~/cs112/proj09[00m$ ./Debug. /proj09
+Testing class BST
+Testing constructor... Passed!
+Testing insert()...  0  1  2  3  4  5  6  7  8  9  10  11  12  13  Passed!
+Testing contains()...  1  2  3  4  Passed!
+Testing traverse()...
+- Preorder: expecting: 55 33 11 22 44 77 66 99 88
+- Got                : 55 33 11 22 44 77 66 99 88
+
+- Postorder: expecting: 22 11 44 33 66 88 99 77 55
+- Got                 : 22 11 33 55
+
+- Inorder: expecting: 11 22 33 44 55 66 77 88 99
+- Got               : 11 22 22 11 33 44 44 33 55 66 66 77 88 88 99 99 77 55
+ Passed!
+Testing getHeight()... 0  1a  1b  1c  1d  1e  1f  1g  1h  2a  2b  3a  3b  3c  3d  4a  4b  4c  4d  4e  4f  Passed!
+All tests passed!
+filename: randomInts01.txt, height: 47, duplicates: 0, items:1048575
+filename: randomInts02.txt, height: 49, duplicates: 0, items:1048575
+filename: randomInts03.txt, height: 47, duplicates: 0, items:1048575
+Enter the name of an input file: randomInts10.txt
+filename: randomInts10.txt, height: 49, duplicates: 0, items:1048575
+]0;gy24@gold33: ~/cs112/proj09[01;32mgy24@gold33[00m:[01;34m~/cs112/proj09[00m$ ls
+BST.h           proj09.xlsx       randomInts05.txt  randomInts10.txt
+BST_Tester.cpp  randomInts01.txt  randomInts06.txt  tester.cpp
+BST_Tester.h    randomInts02.txt  randomInts07.txt  typescript
+[0m[01;34mDebug[0m           randomInts03.txt  randomInts08.txt
+Exception.h     randomInts04.txt  randomInts09.txt
+]0;gy24@gold33: ~/cs112/proj09[01;32mgy24@gold33[00m:[01;34m~/cs112/proj09[00m$ exit
+
+Script done on 2021-11-22 19:51:58-05:00 [COMMAND_EXIT_CODE="0"]
